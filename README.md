@@ -85,22 +85,18 @@ language.
 
 # Tech Stack
 | Header1 | Header2 | Header3 |
-| — — — | — — — — — -| — — — — — |
-| R1C1 | R1C2 | R1C3 |
-| R2C1 | R2C2 | R2C3 |
-
-| Header1 | Header2 | Header3 |
 | :---- | :----: | ----: |
 | R1C1 | R1C2 | R1C3 |
 | R2C1 | R2C2 | R2C3 |
 
 | — — — | — — — — — -|
+| :---- | :----: |
 | Layer	| Technology | 
-UI	| Gradio
-Speech-to-text	| OpenAI Whisper
-Translation |	`translate` (Python package)
-Text-to-speech	| ElevenLabs API
-Config |	`python-dotenv`
+| UI	| Gradio |
+| Speech-to-text	| OpenAI Whisper |
+| Translation |	`translate` (Python package) | 
+| Text-to-speech	| ElevenLabs API |
+| Config |	`python-dotenv` |
 
 
 # Prerequisites
