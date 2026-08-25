@@ -42,9 +42,14 @@ Please make sure to update tests as appropriate.
 AI-powered voice translator that transcribes spoken Spanish and generates
 translated audio in multiple languages, using OpenAI Whisper for speech
 recognition and ElevenLabs for natural-sounding text-to-speech.
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Gradio](https://img.shields.io/badge/UI-Gradio-orange)
-![License](https://img.shields.io/badge/license-unspecified-lightgrey)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue" />
+  <img src="https://img.shields.io/badge/UI-Gradio-orange" />
+  <img src="https://img.shields.io/badge/license-unspecified-lightgrey" />
+</p>
+
+
 # Table of Contents
 * About
 * Features
