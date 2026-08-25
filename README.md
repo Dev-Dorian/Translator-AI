@@ -84,8 +84,9 @@ ElevenLabs Text-to-Speech API.
 language.
 
 # Tech Stack
+
+| Layer | Technology |
 | :---- | :----: |
-| Layer	| Technology | 
 | UI	| Gradio |
 | Speech-to-text	| OpenAI Whisper |
 | Translation |	`translate` (Python package) | 
@@ -94,9 +95,9 @@ language.
 
 
 # Prerequisites
-Python 3.9+
-An ElevenLabs account and API key
-`ffmpeg` installed and available on your system PATH (required by Whisper)
+* Python 3.9+
+* An ElevenLabs account and API key
+* `ffmpeg` installed and available on your system PATH (required by Whisper)
 # Installation
 ```bash
 # Clone the repository
@@ -124,10 +125,10 @@ Run the app:
 python main.py
 ```
 Gradio will launch a local web interface. From there:
-Click the microphone input and record a phrase in Spanish.
-Wait for processing — the app will transcribe, translate, and generate
+1. Click the microphone input and record a phrase in Spanish.
+2. Wait for processing — the app will transcribe, translate, and generate
 audio.
-Listen to the translated output in English, Italian, French, and
+3. Listen to the translated output in English, Italian, French, and
 Portuguese, each in its own audio player.
 Generated audio files are saved locally in the `audios/` directory
 (e.g. `audios/en.mp3`, `audios/it.mp3`, `audios/fr.mp3`, `audios/pt.mp3`).
@@ -140,19 +141,19 @@ Translator-AI/
 └── .gitignore
 ```
 # Roadmap
-[ ] Load the ElevenLabs API key from environment variables only (remove
+* [ ] Load the ElevenLabs API key from environment variables only (remove
 any hardcoded key from source)
-[ ] Add error handling/UI feedback for unsupported audio formats
-[ ] Allow the user to select which target languages to generate
-[ ] Add a `.env.example` file to document required environment variables
-[ ] Add automated tests
+* [ ] Add error handling/UI feedback for unsupported audio formats
+* [ ] Allow the user to select which target languages to generate
+* [ ] Add a `.env.example` file to document required environment variables
+* [ ] Add automated tests
 # Contributing
 Contributions are welcome. To contribute:
-Fork the repository
-Create a feature branch (`git checkout -b feature/my-feature`)
-Commit your changes (`git commit -m "Add my feature"`)
-Push to the branch (`git push origin feature/my-feature`)
-Open a Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m "Add my feature"`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
 # License
 No license specified yet — add a `LICENSE` file if you intend to make this
 project open source.
